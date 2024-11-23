@@ -98,3 +98,24 @@ header{
     border: none;
     box-shadow: 1rem 2rem 1rem gray;
 }
+
+.ContainerPrix{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.parentPrix{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.parentPrix h1{
+font-size: 5.5rem;
+}
+
+.parentPrix p{
+    font-size: 3rem;
+    font-weight: 275;
+}
