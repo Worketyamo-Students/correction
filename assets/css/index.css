@@ -56,6 +56,9 @@ header{
 #text{
     flex: 1;
     /* background-color: green; */
+    /* padding: 0rem 2rem; */
+    display: flex;
+    justify-content: center;
 }
 
 #image{
@@ -63,14 +66,35 @@ header{
 }
 #contain{
     /* background-color: red; */
+    gap: 5rem;
+    display: flex;
+    padding-top: 16%;
+    flex-direction: column;
 }
 
 #contain>h1{
     /* font-weight: 700; */
-    font-size: 5rem;
+    font-size: 6rem;
     text-shadow: .3rem .4rem .5rem gray ;
 }
 #contain>p{
-    font-size: 2.9rem;
+    font-size: 3rem;
     font-weight: 275;
+}
+
+.commander{
+    color:var(--title-color);
+    background-color: var(--bg-color);
+    font-size: 4rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    padding: 3rem 7rem;
+    /* width: 80%; */
+}
+
+.commander:hover{
+    background-color: var(--title-color);
+    color: var(--bg-color);
+    border: none;
+    box-shadow: 1rem 2rem 1rem gray;
 }
